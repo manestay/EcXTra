@@ -1,4 +1,4 @@
-# Multilingual Bidirectional Unsupervised Translation
+# EcXTra: Multilingual Bidirectional Unsupervised Translation
 
 This repository is associated with the paper ["Multilingual Bidirectional Unsupervised Translation Through Multilingual Finetuning and Back-Translation"](https://arxiv.org/abs/2209.02821), published in LoResMT 2023 @ EACL.
 
@@ -117,11 +117,14 @@ To run en-xx inference on the 7 test sets, run `scripts/misc/translate_from_en.s
 
 
 ## Citation
+If you use our work, it would be appreciated if you include this citation:
 ```
-@article{li2022multilingual,
+@article{li2023ecxtra,
   title={Multilingual Bidirectional Unsupervised Translation Through Multilingual Finetuning and Back-Translation},
   author={Li, Bryan and Rasooli, Mohammad Sadegh and Patel, Ajay and Callison-Burch, Chris},
   journal={The Sixth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2023) at EACL},
   year={2023}
 }
 ```
+
+This repository is based on our earlier implementation [here](https://github.com/rasoolims/zero-shot-mt). We have modified it to support the EcXTRa method.
